@@ -7,10 +7,14 @@ import Login from './src/cuenta/login.js';
 import RegistroDatos from './src/cuenta/registroDatos.js';
 import RegistroMascota from './src/cuenta/registroMascota.js';
 
+import AgendarActividad from './src/calendario/agendarActividad.js';
+
+import Home from './src/home.js';
+
 
 const AppNavigator = createStackNavigator(
   {
-   Login, RegistroDatos,RegistroMascota
+    Home,AgendarActividad,Login, RegistroDatos,RegistroMascota, 
   },
   {
     headerMode: 'none',
